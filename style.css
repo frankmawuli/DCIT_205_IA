@@ -351,6 +351,180 @@ filter: brightness(10%) , contrast(100%) , hue-rotate(20ge) , invert(10%);
   background-color:none;
   border-radius: 25px;
 }
+.transImg button:hover{
+  background-color: #2c2a58;
+  color: #fff;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
+  transition: all 1.5s;
+
+
+}
+
+.imageflexer{
+  display: flex;
+  align-content: center;
+}
+.imageflexer img{
+  max-width: 100%;
+  height: 300px;
+  margin: 0;
+
+}
+/* styling for apply */
+.apply{
+  background-image: url('https://plus.unsplash.com/premium_photo-1689700527514-0bb200cb945b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3R1ZGVudHMlMjBwcm9ncmFtbWluZ3xlbnwwfDB8MHx8fDA%3D');
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+/* styling for event  */
+.evenflex{
+  display: flex;
+  margin-bottom: 50px;
+  padding: 20px;
+  
+  
+}
+
+.evenflex div{
+  
+  justify-content: center;
+  
+}
+
+.evenflex h1{
+  background-color: #fff;
+}
+
+.button-overlay{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  margin-left: 20px;
+
+}
+
+
+.button-overlay button{
+  margin-bottom: 500px;
+  margin-left: 10px;
+  width: 300px;
+  height: 50px;
+  background-color:none;
+  border-radius: 25px;
+}
+.button-overlay button:hover{
+  background-color: #2c2a58;
+  color: #fff;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
+  transition: all 1.5s;
+
+
+}
+
+.whyJoin button{
+  width: 300px;
+  height: 50px;
+  background-color:none;
+  border-radius: 25px;
+  border-top: 30px;
+
+}
+.whyJoin button:hover{
+  background-color: #2c2a58;
+  color: #fff;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
+  transition: all 1.5s;
+
+
+}
+
+.whyJoin h1{
+  font-size: larger;
+}
+
+.evenflex h1:hover{
+  background-color: #fff;
+  color: #2c2a58;
+  font-size: x-large;
+}
+
+.evenflex div:hover{
+  background-color: #2c2a58;
+  color: #fff;
+  transition: all 2s;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
+
+
+}
+.past-events img{
+  width: 450px;
+  height: 300px;
+  margin: 0;
+  width: 60%;
+
+}
+.past-events{
+  border-bottom: 50px;
+}
+
+/* styling for contact us page  */
+.container12{
+  display: flex;
+  border: 2px rebeccapurple solid;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact{
+  margin-left: 200px;
+  
+  
+}
+
+.contact input{
+  font-weight: bold;
+  width: 500px;
+  height: 40px;
+  margin:10px ;
+  border-radius: 20px;
+  align-content: center;
+
+}
+.contact:hover{
+  background-color: #2c2a58;
+  color: #fff;
+  transition: all 2s;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
+  font-size: larger;
+
+
+}
+.contact ul{
+  list-style: none;
+
+}
+
+.contact button{
+  width: 300px;
+  height: 50px;
+  background-color:none;
+  border-radius: 25px;
+  background-color: #2c2a58;
+  color: #fff;
+  margin-left: 40px;
+
+}
 
 
 
@@ -363,7 +537,7 @@ filter: brightness(10%) , contrast(100%) , hue-rotate(20ge) , invert(10%);
 
 
 
-/* Media Query for smaller screens */
+Media Query for smaller screens
 @media screen and (max-width: 500px) {
   .firstBar {
     flex-direction: column;
