@@ -46,26 +46,21 @@
 
 ![Homepage](/Screenshots/home.png)
 
-
-
 #### About page
 
 ![About Page](/Screenshots/About.png)
 
-
-
 #### Events Page
 
-![Events Page]()
-![Events Page]()
-
+![Events Page](/Screenshots/Event.png)
 
 ### Contact Us page
 
 ![Contact Us](/Screenshots/contact%20us.png)
 
-
 ### ShortCourse page
+
+![shorcourse page](/Screenshots/shortCourses.png)
 
 
 ### Apply page
@@ -84,6 +79,7 @@
 
 
 ### Faculty
+
 
 
 *Include screenshots of other important pages as well.*

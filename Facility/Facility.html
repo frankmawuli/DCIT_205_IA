@@ -10,88 +10,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">     
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Navigation bar styles */
-        .firstBar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            
-        }
-
-        .logo img {
-            height: 50px;
-            width: auto;
-        }
-
-        .quickAccess {
-            display: flex;
-            gap: 20px;
-        }
-
-        .em a {
-            text-decoration: none;
-            color: white;
-        }
-
-        /* Header styles */
-        header {
-            margin-top: 100px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        header img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        header p {
-            font-weight: 600;
-            margin-top: 10px;
-        }
-
-        /* Section styles */
-        .faculty {
-            margin: 50px 0;
-        }
-
-        .faculty-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .faculty-info h2 {
-            color: #333;
-        }
-
-        .faculty-info p {
-            color: #555;
+          
         }
     </style>
 </head>
 
 <body>
 
+
+    <!--Navigation bar-->
+  <div class="firstBar" >
+    <div class="logo">
+      <img src="/photos and videos/comScience_logo.png" alt="Logo">
+    </div>
+    <div class="quickAccess">
+      <div class="em">
+        <a href="/Home/home .html">HOME</a>
+      </div>
+      <div class="em">
+        <a href="/About/About.html">ABOUT</a>
+      </div>
+      <div class="em">
+        <a href="/Facility/Facility.html">
+          FACULITY</a>
+        </div>
+      <div class="em">
+        <a href="/Research/Research.html">RESEARCH</a>
+      </div>
+      <div class="em">
+        <a href="/About/Events/catalog.html">CATALOG</a>
+      </div>
+
+    </div>
+  </div> 
+
     <!-- Header -->
-    <header>
-        <h1>Welcome to the Computer Science Department</h1>
+    <header class="faculty-h">
+        <h1">Welcome to the Computer Science Department</h1>
         <img src="https://dcs.ug.edu.gh/img/Dr%20Jamal%20Deen%20Abdulai.jpg" alt="">
         <p>Dr. Emmanuel Apraku <br>Head of the Computer Science Department</p>
     </header>
@@ -108,14 +66,18 @@
             <!-- Faculty Information -->
             <div class="faculty-info">
                 <!-- Individual Info Blocks -->
-                <div>
+               <section>
+                
                     <h2>Our Commitment</h2>
                     <p>As the Head of the Department, I am proud to lead a team of dedicated faculty members who are not only experts in their fields but also passionate about imparting knowledge to the next generation of computer scientists. Our commitment to providing a world-class education is unwavering, and we strive to create an environment that fosters innovation, critical thinking, and collaboration.</p>
-                </div>
+                
+               </section>
 
-                <div>
+                <section>
                     <h2>Exciting Opportunities</h2>
                     <p>Whether you are a student looking to embark on a journey of discovery, a faculty member eager to contribute to cutting-edge research, or a visitor interested in the exciting developments in computer science, you will find a wealth of opportunities within our department. From state-of-the-art labs to engaging classroom experiences, we provide the resources needed to thrive in the ever-evolving field of technology.</p>
+                </section>
+                    
                 </div>
 
                 <div>
@@ -153,6 +115,13 @@
       
   </div>
 </div>
+
+<div style="display: flex;">
+    <img src="https://media.istockphoto.com/id/1441663123/photo/scientists-working-in-the-laboratory.webp?b=1&s=170667a&w=0&k=20&c=mzKas4PEoVqNUcGxTkjjABXA2mY15v9q6sujwwHQMw4=" alt="">
+    <img src="https://media.istockphoto.com/id/1254127323/photo/businesswoman-holding-a-speech.webp?b=1&s=170667a&w=0&k=20&c=LuNzPN-LCdis1CaFTPR7I1h4jS4GuSJD4tOjn7BXTAY=" alt="">
+    <img src="https://media.istockphoto.com/id/1410336912/photo/happy-teacher-and-schoolgirl-giving-high-five-during-class-at-school.webp?b=1&s=170667a&w=0&k=20&c=VzOy6zKCCYu_zVlu-KUwK_ujKYUJxbDERgSyEANQ-8w=" alt="">
+</div>
+
 
 
 </body>

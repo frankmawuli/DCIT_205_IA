@@ -119,8 +119,10 @@ body {
   background-color: rgb(230, 233, 232);
 }
 
-
-
+.faculty-header{
+  margin-top: 100px;
+  padding: 20px;
+}
 
 
 
@@ -456,6 +458,11 @@ filter: brightness(10%) , contrast(100%) , hue-rotate(20ge) , invert(10%);
 }
 .past-events{
   border-bottom: 50px;
+}
+
+.evenflex h1{
+  background-color: inherit;
+
 }
 
 /* styling for contact us page  */
