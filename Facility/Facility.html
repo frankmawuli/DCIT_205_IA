@@ -1,35 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ug CSD</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG CSD</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation bar styles */
+        .firstBar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .quickAccess {
+            display: flex;
+            gap: 20px;
+        }
+
+        .em a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Header styles */
+        header {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        header p {
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        /* Section styles */
+        .faculty {
+            margin: 50px 0;
+        }
+
+        .faculty-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .faculty-info h2 {
+            color: #333;
+        }
+
+        .faculty-info p {
+            color: #555;
+        }
+    </style>
 </head>
+
 <body>
 
-<!--Navigation bar-->
-<div class="firstBar">
-  <div class="logo">
-    <img src="/photos and videos/comScience_logo.png" alt="Logo">
-  </div>
-  <div class="quickAccess">
-    <div class="em">
-      <a href="/Home/home .html">HOME</a>
-    </div>
-    <div class="em">
-      <a href="/About/About.html">ABOUT</a>
-    </div>
-    <div class="em">
-      <a href="/Facility/Facility.html">
-        FACULITY</a>
-      </div>
-    <div class="em">
-      <a href="/Research/Research.html">RESEARCH</a>
-    </div>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the Computer Science Department</h1>
+        <img src="https://dcs.ug.edu.gh/img/Dr%20Jamal%20Deen%20Abdulai.jpg" alt="">
+        <p>Dr. Emmanuel Apraku <br>Head of the Computer Science Department</p>
+    </header>
 
+    <!-- Faculty Section -->
+    <section class="faculty">
+        <div>
+            <div>
+                <h2>Greetings and Welcome!</h2>
+                <p>Dear Students, Faculty, and Visitors,</p>
+                <p>It is with great pleasure that I welcome you to the Computer Science Department at the University of Ghana. Our department is a dynamic and vibrant community dedicated to excellence in education and cutting-edge research.</p>
+            </div>
+
+            <!-- Faculty Information -->
+            <div class="faculty-info">
+                <!-- Individual Info Blocks -->
+                <div>
+                    <h2>Our Commitment</h2>
+                    <p>As the Head of the Department, I am proud to lead a team of dedicated faculty members who are not only experts in their fields but also passionate about imparting knowledge to the next generation of computer scientists. Our commitment to providing a world-class education is unwavering, and we strive to create an environment that fosters innovation, critical thinking, and collaboration.</p>
+                </div>
+
+                <div>
+                    <h2>Exciting Opportunities</h2>
+                    <p>Whether you are a student looking to embark on a journey of discovery, a faculty member eager to contribute to cutting-edge research, or a visitor interested in the exciting developments in computer science, you will find a wealth of opportunities within our department. From state-of-the-art labs to engaging classroom experiences, we provide the resources needed to thrive in the ever-evolving field of technology.</p>
+                </div>
+
+                <div>
+                    <h2>Collaboration and Diversity</h2>
+                    <p>We believe in the power of collaboration and the strength that diversity brings to our community. The Computer Science Department is a place where different perspectives converge to create a rich tapestry of ideas. Our commitment to diversity and inclusion extends to every aspect of our department, ensuring that everyone feels welcome and supported.</p>
+                </div>
+
+                <div>
+                    <h2>Get Involved</h2>
+                    <p>I encourage all members of our community to actively engage in departmental activities, whether it be through research projects, student organizations, or participation in events. Together, we can continue to push the boundaries of what is possible in the world of computer science.</p>
+                </div>
+
+                <div>
+                    <h2>Thank You</h2>
+                    <p>Thank you for being a part of our vibrant community. I look forward to a successful and exciting journey ahead, filled with discovery, learning, and achievement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Newsletter and Contact Section -->
+<div class="newsletter">
+  <!-- Newsletter Section -->
+  <div class="">
+      <h1>Newsletter</h1>
+      <p>Stay updated with our latest updates</p>
+      <input type="text" placeholder="Enter your email address" style="border-radius: 10px;">
+      <span><img src="https://img.icons8.com/?size=48&id=E9cG1hfGzMxj&format=png" alt=""></span>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="newsletter">
+      <h1><a href="/Home/contact Us.html" style="color: #fff;"> contac us</a></h1>
+      
   </div>
 </div>
+
+
+</body>
+
+</html>
