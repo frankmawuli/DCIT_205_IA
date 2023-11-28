@@ -1,19 +1,23 @@
 # **DCIT_205_IA**
 
-## Technologies used;
+## Technologies used
+
 + HTML
 + CSS
 
 ## Student details 
+
 + ID 11232324
 + NAME: Gbadago Frank Mawuli
 
 
 ## Introduction
+
   Welcome to the CS Department Website, a comprehensive platform designed to streamline information and resources for the Computer Science department at our institution. This website aims to serve students, faculty, and visitors by providing easy access to essential updates, course details, and event information. Explore the user-friendly interface to stay informed and engaged with the vibrant CS community.
 
 
 ## What I have learnt from this project
+
 + Through this project my knowledge on HTML An CSS has improved significantly. 
 
 + Proficiency in using semantic HTML tags to enhance the structure and accessibility of web content. Understanding the importance of choosing the right tags for better SEO and screen reader compatibility.
@@ -26,7 +30,8 @@
 
 
 ## How to clone and set up a project
-+ Make sure you have git on your computer. If you don't you can downloa it from https://git-scm.com/
+
++ Make sure you have git on your computer. If you don't you can download it from https://git-scm.com/
 
 + Before cloning the project open the directory you want to clone the project to on the command prompt using cd [name of directory]
 
@@ -34,32 +39,38 @@
 
 
 ## Screenshots 
+
 ### Screenshots of each page of your website.
 
 #### Homepage
-![Homepage](/Screenshots/Home.png)
+
+![Homepage](/Screenshots/home.png)
 
 
 
 #### About page
+
 ![About Page](/Screenshots/About.png)
-![About Page](screenshots/courses.png)
+
 
 
 #### Events Page
+
 ![Events Page]()
 ![Events Page]()
 
 
 ### Contact Us page
-![Contact Us]()
-![Contact Us]()
+
+![Contact Us](/Screenshots/contact%20us.png)
+
 
 ### ShortCourse page
 
 
 ### Apply page
 
+![Apply](/Screenshots/Apply.png)
 
 
 ### Catalog page
@@ -67,6 +78,8 @@
 
 
 ### Research page 
+
+![Research](/Screenshots/Research.png)
 
 
 

@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
   font-size: 20px;
 
   
@@ -67,6 +67,9 @@ body a{
   display: flex;
   margin: 50px;
   padding: 50px;
+}
+.course img{
+  margin-left: 20px;
 }
 
 
