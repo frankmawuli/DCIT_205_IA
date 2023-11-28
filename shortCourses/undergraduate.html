@@ -1,18 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ug CSD</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
-</head>
-<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">     
+<style>
+    /* Body Styles */
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 
-<!--Navigation bar-->
-<div class="firstBar">
+    /* Header Styles */
+    .header {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .header h1 {
+        font-size: 36px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .header p {
+        color: #555;
+        font-size: 18px;
+    }
+
+    /* Course Section Styles */
+    .course-section {
+        padding: 50px;
+    }
+
+    .course-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .course-title h2 {
+        font-size: 32px;
+        color: #000;
+    }
+
+    .course-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .course-item {
+        border: 1px solid #eee;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .course-item h3 {
+        font-size: 24px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+
+    .course-item p {
+        color: #555;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* Footer Styles */
+    .footer {
+        text-align: center;
+        padding: 30px;
+        background-color: #333;
+        color: #fff;
+        font-size: 14px;
+    }
+</style>
+
+
+ <!--Navigation bar-->
+ <div class="firstBar" >
   <div class="logo">
     <img src="/photos and videos/comScience_logo.png" alt="Logo">
   </div>
@@ -30,267 +98,54 @@
     <div class="em">
       <a href="/Research/Research.html">RESEARCH</a>
     </div>
+    <div class="em">
+      <a href="/About/Events/catalog.html">CATALOG</a>
+    </div>
 
   </div>
-</div>
+</div> 
 
-<!-- undergraduate courses section -->
-<div>
-  <img src="https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3R1ZGVudHMlMjBjb2Rpbmd8ZW58MHx8MHx8fDA%3D  " alt="" style="margin-top: 100px; width: 100%; object-fit: cover; height: 300px;">
-<div>
-  <p class="overlay-text">Join us as we embark on our fun filled journey into the world of conputers today</p>
-  <button>Enroll Now</button>
-</div>
-  <div style="display: flex;">
-    
-<img src="https://dcs.ug.edu.gh/img/about-img2.jpeg" alt="">
-<h1>Undergraduate degree programmes</h1>
-<p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.
 
-  To qualify for admission into Computer Science programmes at Level 200, candidates must have taken the following courses at Level 100:
-  
-  MATH 121: Algebra and Trigonometry
-  MATH 122: Calculus I CSCD 101: Introduction to Computer Science I
-  CSCD 102: Introduction to Computer Science II
-  Every student in the Department of Computer Science must own his or her laptop with minimum specification of:
-  
-  i3 64-bit Processor
-  8GB RAM
-  500GB HD or 256 SSD</p>
 
+
+
+
+
+
+
+
+<!-- Course Section -->
+<section class="course-section" style="margin-top: 100px;">
+  <div class="course-title">
+      <h2>Available Courses</h2>
   </div>
-</div>
-
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li>UGRC 150	Critical Thinking and Practical Reasoning</li>
-      <li>DCIT 101	Introduction to Computer Science</li>
-      <li>DCIT 103	Office Productivity Tools</li>
-      <li>DCIT 105	Mathematics for IT Professionals</li>
-      <li>STAT 111	Introduction to Statistics and Probability I</li>
-      <h1>Electives</h1>
-      <li>MATH 121	Algebra and Trigonometry</li>
-      <li>MATH 123	Vectors and Geometry</li>
-      <li>ECON 101	Introduction to Economics I</li>
-
-    </ul>
+  <div class="course-list">
+      <div class="course-item">
+          <h3>Introduction to Programming</h3>
+          <p>An introductory course that teaches the fundamentals of programming using a high-level programming language. Topics covered include variables, data types, control structures, functions, and problem-solving techniques.</p>
+      </div>
+      <div class="course-item">
+          <h3>Data Structures and Algorithms</h3>
+          <p>This course focuses on the study of fundamental data structures such as arrays, linked lists, stacks, queues, trees, and graphs. It also covers various algorithms and their analysis, including sorting, searching, and graph algorithms.</p>
+      </div>
+      <div class="course-item">
+          <h3>Database Systems</h3>
+          <p>An introduction to database systems covering concepts of data modeling, relational databases, SQL queries, normalization, and transaction management. Students will gain hands-on experience with popular database management systems.</p>
+      </div>
+      <div class="course-item">
+          <h3>Operating Systems</h3>
+          <p>This course explores the design and implementation of operating systems. Topics include process management, memory management, file systems, and device management. Students will gain practical experience through programming assignments.</p>
+      </div>
+      <div class="course-item">
+          <h3>Web Development</h3>
+          <p>A course that covers the fundamental technologies and techniques for web development, including HTML, CSS, JavaScript, and server-side programming. Students will learn how to create interactive and dynamic web applications.</p>
+      </div>
+      <div class="course-item">
+          <h3>Artificial Intelligence</h3>
+          <p>This course covers the fundamentals of artificial intelligence, including search algorithms, knowledge representation, reasoning, machine learning, and natural language processing. Students will work on AI projects.</p>
+      </div>
   </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>ComputerScience</h1>
-    <ul>First sem
-      <li>MATH 123	Vectors and Geometry</li>
-      <li>MATH 121	Algebra and Trigonometry</li>
-      <li>STAT 111	Introduction to Statistics and Probability I</li>
-      <li>DCIT 103	Office Productivity Tools</li>
-      <li>UGRC 150	Critical Thinking and Practical Reasoning</li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="CS">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 200</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 200</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
-<div>
-  <h1>Level 100</h1>
-  <div class="IT">
-    <h1>Information technology</h1>
-    <ul>First sem
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-
-    </ul>
-  </div>
-</div>
+</section>
 
 
 
@@ -339,21 +194,18 @@
 <div class="">
     <h1>Newsletter</h1>
     <p>Stay updated with our latest updates</p>
-    <input type="text" placeholder="Enter your email address">
-    <img src="/DCIT_205_IA/photos and videos/right-arrow.png" alt="arrow" width="50px" >
+    <input type="text" placeholder="Enter your email address" style="border-radius: 10px;">
+    <span><img src="https://img.icons8.com/?size=48&id=E9cG1hfGzMxj&format=png" alt=""></span>
 </div>
 
 <!-- Contact Section -->
 <div class="newsletter">
-    <h1>Contact us</h1>
-    <p>+233 501 382 035</p>
-    <p>+233 559 145 698</p>
-    <p>dcs@ug.edu.gh</p>
+    <h1><a href="/Home/contact Us.html" style="color: #fff;"> contac us</a></h1>
+    
 </div>
 </div>
 
-
-
-
-</body>
-</html>
+<!-- Footer -->
+<footer class=".footer">
+  <p>&copy; 2022 Your University. All rights reserved.</p>
+</footer>

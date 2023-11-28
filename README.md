@@ -70,37 +70,17 @@
 
 ### Catalog page
 
+![catalog](/Screenshots/Catalog.png)
 
 
 ### Research page 
 
 ![Research](/Screenshots/Research.png)
 
-
-
 ### Faculty
 
+![Faculty](/Screenshots/Faculty.png)
 
+### Undergraduate courses
 
-*Include screenshots of other important pages as well.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Undergraduate](/Screenshots/undergraduate.png)

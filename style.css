@@ -601,10 +601,6 @@ filter: brightness(10%) , contrast(100%) , hue-rotate(20ge) , invert(10%);
   background-color: #ccc;}
 
 
-  .scrch{
-    marginpx;
-    
-  }
   .info{
     text-align: center;
     
@@ -616,7 +612,7 @@ filter: brightness(10%) , contrast(100%) , hue-rotate(20ge) , invert(10%);
   }
   
   .info p{
-    width: ;
+    
     text-align: center;
     padding: 20px;
     
